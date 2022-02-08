@@ -1,3 +1,4 @@
+import 'package:chatapp/SignupScreen.dart';
 import 'package:flutter/material.dart';
 
 import 'WelcomeScreen.dart';
@@ -15,6 +16,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Metropolis'),
-        home: const WelcomeScreen());
+        home: const SignupScreen());
   }
 }
