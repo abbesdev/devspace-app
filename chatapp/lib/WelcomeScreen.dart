@@ -88,7 +88,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               Text(
                 "Log in ",
                 style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 20.0,
                     color: maincolor,
                     fontWeight: FontWeight.w600),
               )
