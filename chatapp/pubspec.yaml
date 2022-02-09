@@ -74,7 +74,18 @@ flutter:
   fonts:
     - family: Metropolis
       fonts:
+        - asset: assets/fonts/Metropolis/Metropolis-Bold.otf
+          weight: 700
         - asset: assets/fonts/Metropolis/Metropolis-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Metropolis/Metropolis-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Metropolis/Metropolis-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Metropolis/Metropolis-Light.otf
+          weight: 300
+        - asset: assets/fonts/Metropolis/Metropolis-Thin.otf
+          weight: 200
           # style: italic
   #   - family: Trajan Pro
   #     fonts:
