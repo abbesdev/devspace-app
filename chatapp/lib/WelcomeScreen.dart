@@ -1,3 +1,6 @@
+import 'dart:developer';
+
+import 'package:chatapp/Login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -60,9 +63,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           ),
           Row(mainAxisAlignment: MainAxisAlignment.center, children: [
             GestureDetector(
-              onTap: (() => Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => WelcomeScreen()))),
-              /* houni  Login()*/
+              onTap: (() => Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Login()))),
               child: Container(
                 width: width - 150,
                 height: 70,
