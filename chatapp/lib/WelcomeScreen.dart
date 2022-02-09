@@ -27,7 +27,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               Image.asset('assets/images/isometric-online-chat 1.png')
             ],
           ),
-          SizedBox(height: 114),
+          SizedBox(height: 110),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
