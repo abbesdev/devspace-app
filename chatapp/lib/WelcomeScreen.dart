@@ -85,12 +85,18 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
-                "Log in ",
-                style: TextStyle(
-                    fontSize: 20.0,
-                    color: maincolor,
-                    fontWeight: FontWeight.w600),
+              GestureDetector(
+                onTap: (() => Navigator.push(context,
+                    MaterialPageRoute(builder: ((context) => Login())))),
+                child: Container(
+                  child: Text(
+                    "Log in ",
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        color: maincolor,
+                        fontWeight: FontWeight.w600),
+                  ),
+                ),
               )
             ],
           ),
